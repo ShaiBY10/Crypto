@@ -156,6 +156,3 @@ def make_request(url: str,
         return response
 
 
-url = "https://api.coingecko.com/api/v3/coins/list"
-response = make_request(url,headers=headers)
-print(response.text)
